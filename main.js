@@ -26,7 +26,7 @@ bgmSound.src = "./sounds/bgm.mp3";
 const scoreSound = new Audio(); // 점수 획득 소리
 scoreSound.src = "./sounds/score.mp3";
 const defeatSound = new Audio(); // 게임 오버 소리
-defeatSound.src = "./sounds/defeat1.mp3";
+defeatSound.src = "./sounds/defeat2.mp3";
 
 /** 이미지 객체 생성 및 설정 */
 // (1) 배경
@@ -334,4 +334,5 @@ canvas.addEventListener("mousemove", function (e) {
         canvas.style.cursor = "default";
     }
 });
+
 /** end of 4.꾸미기 */
